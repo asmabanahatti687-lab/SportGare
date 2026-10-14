@@ -126,7 +126,7 @@ if nav_page == "Home / Catalog":
         st.warning("No products found matching your search or filters. Try adjusting your criteria.")
     else:
         st.markdown(f"### Showing Products ({len(filtered_products)})")
-        cols = st.cols(3)
+        cols = st.columns(3)
         for idx, prod in enumerate(filtered_products):
             col = cols[idx % 3]
             with col:
