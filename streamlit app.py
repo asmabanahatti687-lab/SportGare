@@ -407,5 +407,5 @@ elif nav_page == "Admin Dashboard":
             if not st.session_state.orders:
                 st.info("No orders processed yet.")
             else:
-                df_orders = pd.DataFrame(st.session_state.orders)....................................................................
-                st.dataframe(df_orders, use_container_width=True)..
+                df_orders = pd.DataFrame(st.session_state.orders)
+                st.dataframe(df_orders, use_container_width=True)
