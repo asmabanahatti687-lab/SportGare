@@ -58,7 +58,7 @@ Execute the following command inside your project directory:
 Bash
 streamlit run app.py
 Step 4: Access the Website
-Once running, Streamlit will automatically open your default browser to the local URL(https://sportgare-smmyoel33eymhmgnu8secx.streamlit.app/).
+Once running, Streamlit will automatically open your default browser to the local URL (typically http://localhost:8501).
 
 🔐 Testing & Default Credentials
 Customer Access: Register a new account via the Login / Register page or browse as a guest.
